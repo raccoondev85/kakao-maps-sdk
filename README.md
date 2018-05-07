@@ -1,11 +1,11 @@
 ## KakaoMapsSdk
 
-kakao map (javascript) Typescript convert module.
+kakao map (javascript) Typescript converted (95%) module.
 It works on Angular 4 or Ionic 3 .
 
 (link: http://apis.map.daum.net/web/documentation/)
 
-samples and detail how-to will be updated soon.
+samples and detail of HOW-TOs will be updated soon.
 
 
 ## Install
@@ -34,6 +34,10 @@ import { AppComponent } from './app.component';
 })
 export class AppModule { }
 ```
+
+
+
+your page.ts may look like as followed
 
 ```
 import { Component } from '@angular/core';
@@ -237,6 +241,10 @@ export class AppComponent {
   }
 }
 ```
+
+
+
+
 
 and your html file will looks like this
 ```
