@@ -1,8 +1,10 @@
 {
   "name": "kakao-maps-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "description": "Kakao Account Login Wrapper",
   "license": "MIT",
   "private": false,
+  "author": "raccoondev85",
   "main": "bundles/kakao-maps-sdk.umd.js",
   "module": "esm5/kakao-maps-sdk.js",
   "es2015": "esm2015/kakao-maps-sdk.js",
@@ -10,5 +12,17 @@
   "metadata": "kakao-maps-sdk.metadata.json",
   "dependencies": {
     "tslib": "^1.7.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raccoondev85/kakao-maps-sdk.git"
+  },
+  "keywords": [
+    "ionic",
+    "cordova",
+    "kakao",
+    "kakao-sdk",
+    "kakao-maps",
+    "kakao-map"
+  ]
 }
