@@ -65,10 +65,9 @@ export class AppComponent {
   mapConfig = { width: '100%', height: '50%' };
   flagg = true;
   marker;
-  KaKaoJavascriptAPIKey = '8ab8f62cd70161ec0fa39c1361552dd6';
+  KaKaoJavascriptAPIKey = 'your kakao javascript key here!!';
   constructor(public _kakaoMapsProvider: KakaoMapsProvider) {
-    // _kakaoMapsProvider.init('8ab8f62cd70161ec0fa39c1361552dd6', 'kakaomaps-div');
-
+  
     _kakaoMapsProvider
       .loadKakaoMapSDK(this.KaKaoJavascriptAPIKey)
       .then(
