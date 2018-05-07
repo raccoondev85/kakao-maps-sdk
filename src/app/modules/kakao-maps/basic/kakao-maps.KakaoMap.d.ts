@@ -1,0 +1,35 @@
+import { MapOptions, LevelOptions, CopyrightPosition } from './kakao-maps.constants';
+import { LatLng } from './kakao-maps.LatLng';
+import { LatLngBounds } from './kakao-maps.LatLngBounds';
+import { MapTypeControl } from './kakao-maps.MapTypeControl';
+import { ZoomControl } from './kakao-maps.ZoomControl';
+export declare class KakaoMap {
+    private object;
+    constructor(container: any, options: MapOptions);
+    setCenter(latlng: LatLng): Promise<any>;
+    getCenter(): any;
+    setLevel(level: number, options?: LevelOptions): Promise<any>;
+    getLevel(): any;
+    setMapTypeId(mapTypeId: any): Promise<any>;
+    getMapTypeId(): any;
+    setBounds(bounds: LatLngBounds, paddingTop?: number, paddingRight?: number, paddingBottom?: number, paddingLeft?: number): Promise<any>;
+    getBounds(): any;
+    setMinLevel(minLevel: number): Promise<any>;
+    setMaxLevel(maxLevel: number): Promise<any>;
+    panBy(dx: number, dy: number): Promise<any>;
+    panTo(latlng_or_bounds: LatLng | LatLngBounds, padding: number): Promise<any>;
+    addControl(control: MapTypeControl | ZoomControl, position: any): Promise<any>;
+    removeControl(control: MapTypeControl | ZoomControl): Promise<any>;
+    setDraggable(draggable: boolean): Promise<any>;
+    getDraggable(): any;
+    setZoomable(zoomable: boolean): Promise<any>;
+    getZoomable(): any;
+    relayout(): Promise<any>;
+    addOverlayMapTypeId(mapTypeId: any): Promise<any>;
+    removeOverlayMapTypeId(mapTypeId: any): Promise<any>;
+    setKeyboardShortcuts(active: boolean): Promise<any>;
+    getKeyboardShortcuts(): any;
+    setCopyrightPosition(copyrightPosition: CopyrightPosition, reversed: boolean): Promise<any>;
+    getProjection(): any;
+    setCursor(style: string): Promise<any>;
+}

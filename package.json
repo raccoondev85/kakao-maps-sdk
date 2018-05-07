@@ -1,0 +1,14 @@
+{
+  "name": "kakao-maps-sdk",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": false,
+  "main": "bundles/kakao-maps-sdk.umd.js",
+  "module": "esm5/kakao-maps-sdk.js",
+  "es2015": "esm2015/kakao-maps-sdk.js",
+  "typings": "kakao-maps-sdk.d.ts",
+  "metadata": "kakao-maps-sdk.metadata.json",
+  "dependencies": {
+    "tslib": "^1.7.1"
+  }
+}
