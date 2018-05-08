@@ -1,7 +1,7 @@
 ## KakaoMapsSdk
 
 kakao map (javascript) Typescript converted (95%) module.
-It works on Angular 4 or Ionic 3 .
+It works on Angular 4.
 
 (link: http://apis.map.daum.net/web/documentation/)
 
